@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vanus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 08:29:49 "/>
+        <attribute name="created" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMDE7IjA3OjMzOjQ1ICI7MjIwOA=="/>
+        <attribute name="edited" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMDE7IjA4OjI5OjQ5ICI7MTsyMzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempo, velocidade, distancia" type="Real" array="False" size=""/>
+            <input variable="tempo"/>
+            <assign variable="velocidade" expression="9.8 *tempo"/>
+            <assign variable="distancia" expression="velocidade*tempo"/>
+            <output expression="distancia*100" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
