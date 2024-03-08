@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vanus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 08:19:21 "/>
+        <attribute name="created" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMDg7IjA3OjQ4OjI0ICI7MjIxOA=="/>
+        <attribute name="edited" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMDg7IjA4OjE5OjIxICI7MTsyMzIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, c" type="Real" array="False" size=""/>
+            <input variable="m"/>
+            <assign variable="c" expression="5*m - 2"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
