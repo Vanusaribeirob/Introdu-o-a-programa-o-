@@ -4,17 +4,22 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="vanus"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-03-15 07:54:18 "/>
+        <attribute name="saved" value="2024-03-15 08:08:35 "/>
         <attribute name="created" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMTU7IjA3OjMyOjUzICI7MjIxMQ=="/>
-        <attribute name="edited" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMTU7IjA3OjU0OjE4ICI7MTsyMzI0"/>
+        <attribute name="edited" value="dmFudXM7VkFOVVNBOzIwMjQtMDMtMTU7IjA4OjA4OjM1ICI7MjsyMzI0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="numero, j" type="Integer" array="False" size=""/>
             <for variable="numero" start="1" end="10" direction="inc" step="1">
                 <output expression="numero" newline="True"/>
             </for>
+            <assign variable="j" expression="1"/>
+            <while expression="j &lt;= 10">
+                <output expression="j" newline="True"/>
+                <assign variable="j" expression="j+1"/>
+            </while>
         </body>
     </function>
 </flowgorithm>
